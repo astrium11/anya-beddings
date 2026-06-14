@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anya Beddings</title>
+  <meta name="description" content="Anya Beddings offers affordable bedsheets, pillowcases, linens, curtains, and home essentials." />
+  <link rel="icon" href="img/logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <img src="img/logo.png" alt="Anya Beddings logo" />
+      <span>Anya Beddings</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open navigation" data-nav-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" data-nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <h3>Welcome to</h3>
+        <h1>Anya Beddings</h1>
+        <p>Experience the perfect blend of comfort and style in our luxurious bedding collection.</p>
+
+        <div class="shop-links">
+          <a href="https://shopee.ph/anyabeddings" target="_blank" rel="noreferrer">Shopee</a>
+          <a href="https://www.lazada.com.ph/shop/anya-beddings" target="_blank" rel="noreferrer">Lazada</a>
+          <a href="#" aria-disabled="true">Tiktok</a>
+        </div>
+
+        <a class="play-link" href="https://youtu.be/5xWF_-mqTuM" target="_blank" rel="noreferrer" aria-label="Watch video">
+          <i class="fas fa-play"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Anya Beddings</p>
+        <h2>Our mission is simple: comfort, quality, and accessible prices.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="image-frame">
+          <img src="img/unan2.jpg" alt="Decorative pillows from Anya Beddings" />
+        </div>
+        <div class="about-copy">
+          <h3>Home essentials with a personal touch</h3>
+          <p>
+            Anya Beddings was founded to deliver reasonably priced, beautiful, and premium
+            home essentials. We believe quality bedding should be easy to buy, comfortable to
+            use, and stylish enough to elevate any bedroom.
+          </p>
+          <p>
+            Our products focus on practical value: carefully selected materials, attractive
+            patterns, and accessible prices for everyday customers.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section values">
+      <div class="values-visual">
+        <p class="eyebrow">Our Values</p>
+        <h2>Four reasons customers choose us</h2>
+        <img src="img/kama.jpg" alt="Styled bed with Anya Beddings bedsheet" />
+      </div>
+
+      <div class="value-grid">
+        <article>
+          <span>01</span>
+          <h3>Amazing Products</h3>
+          <p>We carefully select attractive bedding designs that feel comfortable and look polished at home.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Better Experience</h3>
+          <p>Shopping should be easy, clear, and hassle-free from browsing to checkout.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>A Personal Touch</h3>
+          <p>Our curated selection helps customers find practical options without unnecessary confusion.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h3>Efficient Supply Chain</h3>
+          <p>We focus on value by keeping products affordable while maintaining dependable quality.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section featured">
+      <div class="section-heading compact">
+        <p class="eyebrow">Featured Looks</p>
+        <h2>Browse popular bedding styles</h2>
+      </div>
+      <div class="carousel-shell">
+        <button class="carousel-btn" type="button" aria-label="Previous featured image" data-carousel-prev>
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="carousel" data-carousel>
+          <img src="img/img.jpg" alt="Black leaf bedsheet set" />
+          <img src="img/img2.jpg" alt="Blue leaf bedsheet set" />
+          <img src="img/img3.jpg" alt="Greenery bedsheet set" />
+          <img src="img/img4.jpg" alt="Chair cover product" />
+          <img src="img/img5.jpg" alt="Pillowcase color collection" />
+          <img src="img/img6.jpg" alt="Pillowcase color variants" />
+        </div>
+        <button class="carousel-btn" type="button" aria-label="Next featured image" data-carousel-next>
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <section class="section products" id="products">
+      <div class="section-heading">
+        <p class="eyebrow">Products</p>
+        <h2>High quality bedding essentials</h2>
+      </div>
+
+      <div class="filter-row" aria-label="Product categories">
+        <button type="button" class="active" data-filter="all">All</button>
+        <button type="button" data-filter="bedsheet">Bedsheets</button>
+        <button type="button" data-filter="pillowcase">Pillowcases</button>
+        <button type="button" data-filter="curtain">Curtains</button>
+        <button type="button" data-filter="cover">Covers</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="bedsheet">
+          <img src="img/1bd.jpg" alt="Greenery 3-in-1 bedsheet" />
+          <div>
+            <h3>Greenery 3-in-1 Bedsheet</h3>
+            <p>1 bedsheet and 2 pillowcases</p>
+            <span>$5.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="bedsheet">
+          <img src="img/2bd.jpg" alt="Black and gold bedsheet" />
+          <div>
+            <h3>Black and Gold Bedsheet</h3>
+            <p>1 bedsheet and 2 pillowcases</p>
+            <span>$6.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="bedsheet">
+          <img src="img/3bd.jpg" alt="Blue leaf bedsheet" />
+          <div>
+            <h3>Blue Leaf Bedsheet</h3>
+            <p>1 bedsheet and 2 pillowcases</p>
+            <span>$7.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="bedsheet">
+          <img src="img/4bd.jpg" alt="Gray geometric bedsheet" />
+          <div>
+            <h3>Gray Geometric Bedsheet</h3>
+            <p>1 bedsheet and 2 pillowcases</p>
+            <span>$8.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="bedsheet">
+          <img src="img/5bd.jpg" alt="Black geometric bedsheet" />
+          <div>
+            <h3>Black Geometric Bedsheet</h3>
+            <p>1 bedsheet and 2 pillowcases</p>
+            <span>$9.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="pillowcase">
+          <img src="img/1pillow.jpg" alt="Leaves pillowcase" />
+          <div>
+            <h3>Leaves Pillowcase</h3>
+            <p>1 piece pillowcase</p>
+            <span>$4.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="pillowcase">
+          <img src="img/2pillow.jpg" alt="Gray geometric pillowcase" />
+          <div>
+            <h3>Gray Geometric Pillowcase</h3>
+            <p>1 piece pillowcase</p>
+            <span>$9.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="pillowcase">
+          <img src="img/3pillow.jpg" alt="White and brown leaves pillowcase" />
+          <div>
+            <h3>White and Brown Leaves Pillowcase</h3>
+            <p>1 piece pillowcase</p>
+            <span>$9.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="curtain">
+          <img src="img/1curtain.jpg" alt="Green butterfly curtain" />
+          <div>
+            <h3>Green Butterfly Curtain</h3>
+            <p>1 piece curtain</p>
+            <span>$12.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="curtain">
+          <img src="img/2curtain.jpg" alt="Flower curtain" />
+          <div>
+            <h3>Flower Curtain</h3>
+            <p>1 piece curtain</p>
+            <span>$12.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="curtain">
+          <img src="img/3curtain.jpg" alt="Cream butterfly curtain" />
+          <div>
+            <h3>Cream Butterfly Curtain</h3>
+            <p>1 piece curtain</p>
+            <span>$12.95</span>
+          </div>
+        </article>
+        <article class="product-card" data-category="cover">
+          <img src="img/1cover.jpg" alt="Chair cover" />
+          <div>
+            <h3>Chair Cover</h3>
+            <p>Cover for chair</p>
+            <span>$12.95</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">Gallery</p>
+        <h2>Product visuals and styling ideas</h2>
+      </div>
+      <div class="gallery-grid">
+        <img src="img/image1.jpg" alt="Greenery bedsheet product photo" />
+        <img src="img/image2.jpg" alt="Blue leaf bedsheet product photo" />
+        <img src="img/image3.jpg" alt="Black and gold bedsheet product photo" />
+        <img src="img/image4.jpg" alt="Black geometric bedsheet product photo" />
+        <img src="img/image5.jpg" alt="Bedding product photo" />
+        <img src="img/image6.jpg" alt="Bedding product photo" />
+        <img src="img/image7.jpg" alt="Pillowcase product photo" />
+        <img src="img/image8.jpg" alt="Pillowcase product photo" />
+      </div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="section-heading">
+        <p class="eyebrow">Feedback</p>
+        <h2>What customers say</h2>
+      </div>
+
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="review-top">
+            <img src="img/pic2.jpg" alt="Sheila Marie profile" />
+            <div>
+              <h3>Sheila Marie</h3>
+              <p>@sheilamarieabadilla</p>
+            </div>
+            <span>4/5</span>
+          </div>
+          <p>Grabe, ang gandang bedsheet at pillow case na 'to! Ang lambot ng tela, perfect sa balat ko.</p>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="img/pic3.jpg" alt="Erwin Lopez profile" />
+            <div>
+              <h3>Erwin Lopez</h3>
+              <p>@erwinlopez02</p>
+            </div>
+            <span>5/5</span>
+          </div>
+          <p>The sheets fit perfectly on my bed, and the elasticized corners stay in place throughout the night.</p>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="img/pic4.jpg" alt="Abby De Leon profile" />
+            <div>
+              <h3>Abby De Leon</h3>
+              <p>@ahbydeleon358</p>
+            </div>
+            <span>4/5</span>
+          </div>
+          <p>I am pleased with my purchase. The color faded slightly after washes, but it still looks nice.</p>
+        </article>
+        <article class="review-card">
+          <div class="review-top">
+            <img src="img/pic6.jpg" alt="Jayne Marie profile" />
+            <div>
+              <h3>Jayne Marie</h3>
+              <p>@jaynemarie</p>
+            </div>
+            <span>4/5</span>
+          </div>
+          <p>Okay lang ang bedsheet at pillow case. Medyo manipis, pero maganda ang kulay at design.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="footer-grid">
+      <div>
+        <h2>Anya Beddings</h2>
+        <p>Affordable bedding and home essentials for comfortable everyday living.</p>
+      </div>
+      <div>
+        <h3>Useful Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p>Trece Martires, Cavite</p>
+        <p>+63945376473</p>
+        <p>email@here.com</p>
+      </div>
+      <div>
+        <h3>Online Shops</h3>
+        <a href="https://shopee.ph/anyabeddings" target="_blank" rel="noreferrer">Shopee</a>
+        <a href="https://www.lazada.com.ph/shop/anya-beddings" target="_blank" rel="noreferrer">Lazada</a>
+        <a href="#" aria-disabled="true">TikTok Shop</a>
+      </div>
+    </div>
+    <p class="copyright">Created by Me and Friends | 2023 All rights reserved.</p>
+  </footer>
+</body>
+</html>
